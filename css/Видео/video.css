@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+nav {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+nav::before{
+    content: ' ';
+    display: block;
+    height: 7vh;
+    width: 100vw;
+    background: #218294;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 7vh;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    height: 7vh;
+    padding: 0 3vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 7vh;
+}
+
+ul li a:hover{
+    background: #69bdb7;
+    transition: .2s;
+}

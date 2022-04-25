@@ -1,0 +1,134 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+.main{
+    width: 100vw;
+    height: 93vh;
+    background-color: #69bdb7;
+   
+}
+.text-main{
+    position: relative;
+    text-align: center;
+    top: 12vh;
+    color: #fff;
+}
+.main h1{
+    font-size: 10vw;
+    font-size: 10vh;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main p{
+    margin-top: 30hv;
+    font-size: 4vw;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main img{
+    transition: .3s;
+    width: 18vw;
+    
+}
+.main img:hover{
+    transition: .3s;
+    width: 20vw;
+}
+.dws{
+    position: absolute;
+    top: 80vh;
+    left: 25vw;
+}
+
+
+.butt::after{
+    opacity: 1;
+    transition-delay: .2s;
+}
+.butt:hover{
+    color: #fff;
+    background: #218394d0;
+}
+.butt:hover::before,
+.butt:hover::after{
+    left: 0;
+}
+.dws1{
+    position: absolute;
+    top: 80vh;
+    left: 53vw;
+}
+.butt1,
+.butt{
+    border: 3px solid #218294;
+    background: #2183949d;
+    font-size: 3.5vw;
+    font-size: 3.5vh;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 20vw;
+    height: 10vh;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    transition: .2s;
+    overflow: hidden;
+}
+
+.butt1::after{
+    opacity: 1;
+    transition-delay: .1s;
+}
+.butt1:hover{
+    color: #fff;
+    background: #218394d0;
+}
+.butt1:hover::before,
+.butt1:hover::after{
+    left: 0;
+}
+nav {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+nav::before{
+    content: ' ';
+    display: block;
+    height: 7vh;
+    width: 100vw;
+    background: #218294;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 7vh;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    height: 7vh;
+    padding: 0 3vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 7vh;
+}
+
+ul li a:hover{
+    background: #69bdb7;
+    transition: .2s;
+}
