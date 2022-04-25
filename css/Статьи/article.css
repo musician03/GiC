@@ -43,3 +43,6 @@ ul li a:hover{
     background: #69bdb7;
     transition: .2s;
 }
+.line {
+    border-bottom: .5vh  solid #65C9FF; /* Параметры линии */
+   }
