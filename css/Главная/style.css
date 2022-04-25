@@ -6,7 +6,7 @@
 }
 .main{
     width: 100vw;
-    height: 93vh;
+    height: 92.5vh;
     background-color: #69bdb7;
    
 }
@@ -132,3 +132,6 @@ ul li a:hover{
     background: #69bdb7;
     transition: .2s;
 }
+.line {
+    border-bottom: .5vh solid #65C9FF; /* Параметры линии */
+   }
