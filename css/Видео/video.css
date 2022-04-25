@@ -43,3 +43,61 @@ ul li a:hover{
     background: #69bdb7;
     transition: .2s;
 }
+.line {
+    border-bottom: .5vh  solid #65C9FF; /* Параметры линии */
+   }
+.rrr{
+    width: 20%;
+    height: 27%;
+    
+}
+.wim {
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    font-size: 5vh;
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+}
+.wim:hover{
+    color: #218294;
+    font-size: 5.5vw;
+    font-size: 5.5vh;
+    transition: .2s;
+    left: 32.5vw;
+}
+.line2 {
+    border-bottom: .5vh  solid #65c9ff23; /* Параметры линии */
+   }
+
+.prob{
+    position: absolute;
+    top: 63.5vh;
+    left: 15vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    font-size: 5vh;
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+}
+.prob:hover{
+    color: #218294;
+    font-size: 5.5vw;
+    font-size: 5.5vh;
+    transition: .2s;
+    left: 13.5vw;
+}
+.lll{
+    width: 20%;
+    height: 27%;
+    float: right;
+}
+.line3{
+    border: none;
+    color: #65c9ff23;
+    height: .5vh;
+}
